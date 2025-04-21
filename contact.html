@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Cleaning</title>
+</head>
+<body style="font-family: sans-serif; max-width: 600px; margin: 50px auto;">
+  <h2>Book a Cleaning</h2>
+
+  <form action="https://formsubmit.co/info@innovataclean.com" method="POST" enctype="multipart/form-data">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone:</label><br>
+    <input type="tel" name="phone" required><br><br>
+
+    <label>Address:</label><br>
+    <input type="text" name="address"><br><br>
+
+    <label>Service Needed:</label><br>
+    <select name="service" required>
+      <option>Carpet Cleaning</option>
+      <option>Upholstery Cleaning</option>
+      <option>Mattress Cleaning</option>
+      <option>Window Washing</option>
+      <option>Warehouse Cleaning</option>
+      <option>Move-In/Out</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="4"></textarea><br><br>
+
+    <label>Upload a Photo (optional):</label><br>
+    <input type="file" name="attachment"><br><br>
+
+    <!-- Hidden settings -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://innovataclean.com/thank-you.html">
+
+    <button type="submit">Send Request</button>
+  </form>
+</body>
+</html>
