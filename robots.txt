@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://innovataclean.com/temap.xml
+Sitemap: https://innovataclean.com/sitemap.xml
