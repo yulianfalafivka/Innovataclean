@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fcf4e8;
+  color: #133b23;
+}
+
+.hero {
+  background: url('background.jpg') no-repeat center center/cover;
+  padding: 80px 20px 60px;
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #165a3d;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.hero p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.cta-button {
+  background-color: #f9b233;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #d89c1d;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #165a3d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul li {
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.gallery {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #165a3d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 { font-size: 28px; }
+  .hero h2 { font-size: 20px; }
+  .cta-button { font-size: 14px; padding: 10px 20px; }
+  .gallery img { width: 90%; }
+}
